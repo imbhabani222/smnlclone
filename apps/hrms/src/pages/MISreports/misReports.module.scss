@@ -1,0 +1,111 @@
+.button_wrap {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.primary_btn {
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  background-color: #272083;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  &:hover {
+    background-color: #4a42b6;
+    color: #fff !important;
+  }
+}
+
+.secondary_btn {
+  display: inline-block;
+  width: auto;
+  height: 100%;
+  padding: 6px 16px;
+  background-color: #fff;
+  color: #101828;
+  border-radius: 6px;
+  font-size: 14px;
+  height: 32px;
+  padding: 4px 15px;
+  &:hover {
+    background-color: #fff;
+    color: #101828;
+
+  }
+}
+.title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.subHeader_row {
+  padding: 10px 12px 5px 12px;
+}
+.actions {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: flex-end;
+  position: sticky;
+  bottom: 0;
+  margin-bottom: 0;
+  margin-top: 50px;
+  padding: 1rem;
+  width: 100%;
+  border-top: 1px solid #eaecf0;
+  background-color: #ffffff;
+
+  &__cancel {
+    margin-right: 1rem;
+  }
+}
+
+.panel_container {
+  padding: 20px 20px 0px 20px;
+  margin: 10px 0px;
+  background: #fff;
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06);
+  min-height: calc(100vh - 250px);
+  height: calc(100vh - 250px);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.actions {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: flex-end;
+  position: sticky;
+  bottom: 0;
+  margin-bottom: 0;
+  padding: 1rem 1rem 2rem 1rem;
+  width: 100%;
+  border-top: 1px solid #eaecf0;
+  background-color: #ffffff;
+
+  &__cancel {
+    margin-right: 1rem;
+  }
+}
+
+.payroll_btn_col {
+  display: flex;
+  align-items: center;
+  padding-left: 0px !important;
+
+  .action_text {
+    color: #272083 !important;
+    font-size: 16px;
+    padding: 0;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+  .action_text:hover {
+    background: transparent !important;
+    padding: 0;
+  }
+}

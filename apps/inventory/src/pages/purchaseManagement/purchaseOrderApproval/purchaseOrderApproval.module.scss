@@ -1,0 +1,23 @@
+.add_row {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 10px;
+  }
+  .actions {
+    display: flex;
+    column-gap: 1rem;
+    justify-content: flex-end;
+    position: sticky;
+    bottom: 0;
+    margin-bottom: 0;
+    margin-top: 50px;
+    padding: 1rem;
+    width: 100%;
+    border-top: 1px solid #eaecf0;
+    background-color: #ffffff;
+  ​
+    &__cancel {
+      margin-right: 1rem;
+    }
+  }
+  

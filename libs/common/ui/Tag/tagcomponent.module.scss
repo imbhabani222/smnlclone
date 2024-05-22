@@ -1,0 +1,37 @@
+.tag_component {
+  border-radius: 25px;
+  width: 80px;
+  text-align: center;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.btnsuccess {
+  background-color: #c2ecbb;
+  color: #10a02f;
+  border-color: transparent;
+}
+
+.btnapprove {
+  background-color: #c2ecbb;
+  color: #10a02f;
+  border-color: transparent;
+}
+
+.btnerror {
+  background-color: #fed0d0;
+  color: #eb5757;
+  border-color: transparent;
+}
+
+.btnpending {
+  color: #1677ff;
+  background: #e6f4ff;
+  border-color: transparent;
+}
+.btnwarning {
+  color: #16a6ff;
+  background: #e6f4ff;
+  border-color: transparent;
+}

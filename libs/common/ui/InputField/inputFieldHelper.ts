@@ -1,0 +1,28 @@
+export const regexMap: any = {
+  onlystring: /^[a-zA-Z ]*$/,
+  state: /^[a-zA-Z ]*$/,
+  companyName: /^[a-zA-Z0-9& ]*$/,
+  cin: /^[a-zA-Z0-9]*$/,
+  panno: /^[a-zA-Z0-9]*$/,
+  tan: /^[a-zA-Z0-9]*$/,
+  cst: /^[a-zA-Z0-9]*$/,
+  vat: /^[a-zA-Z0-9]*$/,
+  onlychar: /^[a-zA-Z& ]*$/,
+  charandinteger: /^[a-zA-Z0-9]*$/,
+  ifsc: /^[a-zA-Z0-9]*$/,
+  int: /^[0-9]*$/,
+  leavecode: /^[a-zA-Z ]*$/,
+  mobile: /^[0-9]*$/,
+  percentage: /^[0-9.]*$/,
+  seniorCitizen: /^[0-9]*$/,
+  passport: /^[a-zA-Z0-9<]+$/,
+  charandintegerandspace: /^[A-Za-z0-9 ]+$/,
+  password:
+    /^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!#$%\-_=+<>])([a-zA-Z0-9!#$%\-_=+<>]+)$/,
+  servicetax: /^[A-Za-z0-9]+$/,
+  float: /^[0-9.]+$/,
+  dl: /^[a-zA-Z0-9]*$/,
+  // pf: /^[a-zA-Z0-9]*$/,
+  price: /^[0-9.]+$/,
+  onlyNumber: /^[0-9]+$/
+};

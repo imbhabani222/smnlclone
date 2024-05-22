@@ -1,0 +1,10 @@
+.login_btn {
+  margin-block-start: 50px;
+}
+
+.mainButton {
+  background: #272083;
+  &:hover {
+    background: #4339c1 !important;
+  }
+}

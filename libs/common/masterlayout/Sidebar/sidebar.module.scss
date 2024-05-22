@@ -1,0 +1,40 @@
+.sidebar_container {
+  z-index: 1;
+  flex: 0 0 var(--main-nav-width);
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-nav-background-color);
+  justify-content: space-between;
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.close_secondary_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  .close_image {
+    width: var(--20px);
+    height: var(--11px);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    & span {
+      background-color: #fff;
+      height: 1.5px;
+      width: 70%;
+    }
+    & span:nth-of-type(2) {
+      width: 100%;
+    }
+    .shiftRight {
+      transition: transform 0.2s ease;
+      transform: translateX(-6px);
+    }
+  }
+}

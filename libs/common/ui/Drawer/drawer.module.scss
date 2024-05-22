@@ -1,0 +1,30 @@
+.content {
+  background-color: red;
+}
+.btn {
+  display: flex;
+  justify-content: flex-start;
+  position: sticky;
+  bottom: 0;
+  margin-bottom: 0;
+  padding: 1rem;
+  width: 100%;
+  background-color: #ffffff;
+  .submit {
+    height: 100%;
+    padding: 6px 16px;
+    background-color: #272083 !important;
+    border-radius: 4px;
+    &:hover {
+      background-color: #4a42b6 !important;
+    }
+  }
+
+  .cancel {
+    margin-right: 1rem;
+    height: 100%;
+    padding: 6px 16px;
+    background: white;
+    border-radius: 4px;
+  }
+}

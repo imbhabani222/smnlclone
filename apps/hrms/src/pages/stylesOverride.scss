@@ -1,0 +1,15 @@
+.contentHeight {
+  height: calc(100vh - 255px);
+}
+.reportsContainer {
+  display: flex;
+  flex-direction: column;
+  // margin: 0px 25px 10px 25px;
+  /* background: #fff; */
+  // box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06);
+  min-height: calc(100vh - 175px);
+  height: calc(100vh - 175px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin: 15px 20px;
+}

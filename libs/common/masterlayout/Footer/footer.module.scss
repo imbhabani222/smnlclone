@@ -1,0 +1,26 @@
+.footer_container {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 30px;
+  padding-block: 10px;
+  border-block-start: 1px solid #e9e9e9;
+  gap:5px;
+  background-color: #fff;
+}
+
+.footer_text {
+  font-weight: 400;
+  font-size: var(--12px);
+  .footer_link {
+    text-decoration: none;
+    color: #2F80ED;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+}
+
+.footer_link {
+  cursor: pointer;
+}

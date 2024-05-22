@@ -1,0 +1,29 @@
+
+.notice_letter {
+    margin: 20px;
+    p {
+        font-size: 14px;
+        margin: 0;
+
+    }
+    .date{
+        font-size: 14px;
+        margin-left: 400px;
+        margin-bottom: 20px;
+    }
+    .subject{
+        text-decoration: underline;
+        font-weight: bold;
+        word-spacing: 5px;
+        margin-bottom: 10px;
+    }
+    .highlight{
+        margin-right: 5px;
+    }
+    .address{
+        margin-bottom: 5px;
+    }
+    .content{
+        margin-bottom: 5px;
+    }
+}

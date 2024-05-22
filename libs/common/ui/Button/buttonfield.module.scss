@@ -1,0 +1,13 @@
+.common_button.common_button {
+  display: inline-block;
+  width: auto;
+  .Mainbutton {
+    height: 100%;
+    padding: 6px 16px;
+    background-color: #272083;
+    border-radius: 6px;
+    &:hover {
+      background-color: #4a42b6;
+    }
+  }
+}

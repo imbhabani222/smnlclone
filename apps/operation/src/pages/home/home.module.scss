@@ -1,0 +1,48 @@
+.dashboard {
+  background-color: #f6f7f8;
+  padding: 0;
+  height: auto;
+  overflow: scroll;
+  min-height: calc(100vh - 125px);
+  height: calc(100vh - 125px);
+  .topCard {
+    height: 110px;
+    border-radius: 10px;
+    background: #fff;
+    color: #101828;
+    .area {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 5px;
+      padding: 10px 20px;
+      .title {
+        font-size: 13px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+      }
+      .mainTitle {
+        font-size: 35px;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+      }
+      .link {
+        font-size: 11px;
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+      }
+    }
+  }
+  .card {
+    border-radius: 10px;
+    border: 1px solid #eaecf0;
+    background: #fff;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.06);
+    padding: 10px 20px;
+    // margin: 25px 0;
+    height: auto;
+  }
+}

@@ -1,0 +1,20 @@
+.print_preview {
+  display: none;
+}
+.print_btn{
+  border-radius: 2px;
+  border: 1px solid #272083;
+  padding: 6px 16px 6px 16px;
+  font-weight: 500;
+  font-size: 12px;
+  color: #101828; 
+}
+
+.preview-content {
+  max-height: 400px;
+  overflow: auto;
+}
+
+.ant-modal-body {
+  padding: 0;
+}

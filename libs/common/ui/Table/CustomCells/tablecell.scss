@@ -1,0 +1,14 @@
+.tags {
+  &__Active {
+    color: #017d1c;
+    background-color: #c2ecbb;
+    font-weight: 600;
+    border-radius: 16px;
+  }
+  &__Inactive {
+    color: #eb5757;
+    background-color: #fed0d0;
+    font-weight: 600;
+    border-radius: 16px;
+  }
+}

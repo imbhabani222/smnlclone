@@ -1,0 +1,215 @@
+.dashboard {
+  background-color: #f6f7f8;
+  padding: 20px;
+
+  &__widgets {
+    background-color: #ffffff !important;
+    padding: 20px;
+    margin-top: 30px;
+    &__greeting {
+      padding-left: 20px;
+      margin-bottom: 30px;
+    }
+    &__content {
+      display: flex;
+      flex-flow: row wrap;
+      // justify-content: space-evenly;
+      gap: 10px;
+      align-items: baseline;
+      &_button {
+        width: 108px;
+        height: 100%;
+      }
+      &_item {
+        width: 108px;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: Inter;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #f6f7f8e5;
+          border-radius: 1rem;
+        }
+        & span {
+          width: 108px;
+          text-align: center;
+          margin-top: 8px;
+          line-height: 1.05rem;
+        }
+      }
+    }
+  }
+  &__salaryInfo {
+    background-color: #ffffff;
+    // width: 844px;
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 30px;
+    &_barChart {
+      width: 451px;
+    }
+  }
+  &__announcements {
+    background-color: #ffffff;
+    height: 500px;
+    padding: 0 20px 20px 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    &__heading {
+      background-color: #ffffff;
+      position: sticky;
+      top: 0;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      font-family: Lato;
+    }
+    &__content {
+      display: flex;
+      flex-direction: column;
+      &__date {
+        font-family: Lato;
+        font-size: 1rem;
+        font-weight: 600;
+        line-height: 2rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #898989;
+        font-family: Lato;
+      }
+      &__tittle {
+        font-family: Lato;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.5rem;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #272083;
+      }
+      &__details {
+        font-family: Lato;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #8a8a8a;
+      }
+    }
+  }
+  &__holidayCalender {
+    background-color: #ffffff;
+    height: 500px;
+    padding: 0 10px 20px 10px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    &__heading {
+      background-color: #ffffff;
+      position: sticky;
+      top: 0;
+      padding-top: 20px;
+      padding-bottom: 10px;
+      z-index: 100;
+      font-family: Lato;
+    }
+    &__content {
+      display: flex;
+      flex-direction: row;
+      column-gap: 10px;
+      padding: 10px;
+      font-family: Lato;
+      &:hover {
+        background-color: #f6f7f8e5;
+        border-radius: 1rem;
+      }
+      &__avatar {
+        height: 55px;
+        width: 55px;
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+
+      &__date {
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: Lato;
+      }
+      &__holiday {
+        font-size: 1rem;
+        color: #8a8a8a;
+        font-weight: 400;
+        font-family: Lato;
+      }
+    }
+  }
+  &__BirtdayWishes {
+    background-color: #ffffff;
+    height: 500px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+}
+
+.subText {
+  font-size: 14px;
+  color: #667085;
+  font-family: 'Inter';
+  line-height: 20px;
+  font-weight: 400;
+  font-family: Lato;
+}
+
+.content {
+  margin: 0px 25px 10px 25px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height: calc(100vh - 200px);
+  height: calc(100vh - 120px);
+  font-family: Lato;
+}
+.content::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.content::-webkit-scrollbar {
+  width: 0.6em;
+  background-color: #ffffff;
+}
+
+.content::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #c6c6c6;
+}
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 0.6em;
+  background-color: #ffffff;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #c6c6c6;
+}
